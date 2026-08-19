@@ -1,0 +1,12 @@
+{
+  "_captured_at": "2026-08-19T16:11:33Z",
+  "_captured_run_id": "r_26fb1566b35d4954975ab14168a47bbe",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: The dataset sashelp.cars exists.",
+    "ERROR: The dataset WORK.NONEXISTENDATA does not exist. Operation aborted."
+  ],
+  "log_does_not_contain": ["ERROR: The dataset sashelp.cars does not exist"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
