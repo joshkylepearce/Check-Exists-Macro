@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_check_exists_file",
+  "source_file": "Check Exists Macro.sas",
+  "source_blob_sha": "3f06c1a863532b45235e64f35468935c06657db4",
+  "source_commit": "05f9f16367682a6101a0ad5d80eb234c88a238f1",
+  "notes": "Macro definition plus the repo's own Example 2 (external file existence checks). Original path (\\\\sasebi\\SAS User Data\\Josh Pearce\\DATA\\TOURISM.xlsx) replaced with %sysfunc(pathname(work)) since Jenner's sandbox has no access to that network share; WORK is guaranteed to exist so FILEEXIST still gets a genuine positive case, paired with a path appended with NON_EXISTENT_FILE.xlsx for the negative case. Macro logic unchanged."
+}

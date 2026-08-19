@@ -1,0 +1,3 @@
+NOTE: Option OBS changed to 100.
+NOTE: The dataset sashelp.cars exists.
+ERROR: The dataset WORK.NONEXISTENDATA does not exist. Operation aborted.

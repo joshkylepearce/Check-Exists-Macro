@@ -1,0 +1,12 @@
+{
+  "_captured_at": "2026-08-19T16:11:47Z",
+  "_captured_run_id": "r_bab345c56eec40c78b20f8ed6d440611",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: The file",
+    "exists.",
+    "NON_EXISTENT_FILE.xlsx does not exist. Operation aborted."
+  ],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

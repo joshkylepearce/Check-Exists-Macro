@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_check_exists_dataset",
+  "source_file": "Check Exists Macro.sas",
+  "source_blob_sha": "3f06c1a863532b45235e64f35468935c06657db4",
+  "source_commit": "05f9f16367682a6101a0ad5d80eb234c88a238f1",
+  "notes": "Macro definition plus the repo's own Example 1 (dataset existence checks) run unmodified: %check_exists against sashelp.cars (exists) and WORK.NONEXISTENDATA (does not exist)."
+}
